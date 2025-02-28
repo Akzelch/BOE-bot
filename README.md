@@ -1,4 +1,4 @@
-#BOE-Bot
+# BOE-Bot
 Collection of code for the SSY331 BOE-Bot assignment. The BOE-Bot examination consisted of four tasks, with the two most advanced ones included in this repository.
 
 Task 3 involved an Arduino UNO mounted on two servo motors, with a ball at the back, forming a small two-wheeled robot. At the front, two whisker-like sensors were attached, short-circuiting their respective circuits to ground upon contact with an obstacle. This allowed the bot to determine whether it had collided on the left or right side. The code implements several maneuvers depending on whether the bot collides on the left, right, or directly in front. Additionally, a function was implemented to detect if the bot had gotten stuck in a corner.
