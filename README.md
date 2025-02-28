@@ -1,10 +1,9 @@
-# BOE-bot
-Samling av kod till SSY331s BOE-bot uppgift.
-BOE bot examinationen bestod av 4 uppgifter, varav de 2 mest avancerade är med i detta repository.
-Uppgift 3 bestod av en Arduino UNO på två stycken servomotorer samt en kula där bak i formen av en liten robot på två hjul, längst fram satt två spröt monterade som kortslöt vardera krets mot jord
-när de körde in i något. På detta sätt kunde botten identifiera om den kolliderat med något på höger eller vänster sida. Koden implementerar ett antal olika manövrar beroende på om den kolliderat
-med något till vänster, höger eller rakt fram. Dessutom implemeterades en funktion för att detektera om botten kört fast i ett hörn. Det implementerades också en funktion baserad på cirkelsektor matematik för att
-hålla koll på robotens riktning så att den inte vände om och körde tillbaka igen. Uppgiftens mål var att botten skulle kunna köra genom en bana med olika hinder samt väggar till vänster och höger på så kort tid som möjligt.
+#BOE-Bot
+Collection of code for the SSY331 BOE-Bot assignment. The BOE-Bot examination consisted of four tasks, with the two most advanced ones included in this repository.
 
-Uppgift 4 bestod av samma bot fast spröten hade blivit ersatta av en ultraljudssensor. Uppgiften var sedan att få botten att hålla kunna hålla ett specifikt avstånd till ett objekt såsom en hand eller vägg.
-Om objektet sedan förflyttar sig framåt eller bakåt ska botten bibehålla avståndet. t.ex. genom att backa när objektet rör sig mot botten.
+Task 3 involved an Arduino UNO mounted on two servo motors, with a ball at the back, forming a small two-wheeled robot. At the front, two whisker-like sensors were attached, short-circuiting their respective circuits to ground upon contact with an obstacle. This allowed the bot to determine whether it had collided on the left or right side. The code implements several maneuvers depending on whether the bot collides on the left, right, or directly in front. Additionally, a function was implemented to detect if the bot had gotten stuck in a corner.
+
+A feature based on circular sector mathematics was also included to track the robot’s orientation, preventing it from turning around and driving back the way it came. The objective of the task was for the bot to navigate a course with various obstacles and walls on either side in the shortest possible time.
+
+Task 4 used the same bot, but the whisker sensors were replaced with an ultrasonic sensor. The goal was to enable the bot to maintain a specified distance from an object, such as a hand or a wall. If the object moved forward or backward, the bot was required to adjust accordingly—for example, by reversing when the object moved closer.
+
